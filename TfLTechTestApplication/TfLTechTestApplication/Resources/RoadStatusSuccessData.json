@@ -1,0 +1,1 @@
+[{"$type":"Tfl.Api.Presentation.Entities.RoadCorridor, Tfl.Api.Presentation.Entities","id":"a2","displayName":"A2","statusSeverity":"Good","statusSeverityDescription":"No Exceptional Delays","bounds":"[[-0.0857,51.44091],[0.17118,51.49438]]","envelope":"[[-0.0857,51.44091],[-0.0857,51.49438],[0.17118,51.49438],[0.17118,51.44091],[-0.0857,51.44091]]","url":"/Road/a2"}]

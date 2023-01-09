@@ -1,0 +1,1 @@
+{"$type":"Tfl.Api.Presentation.Entities.ApiError, Tfl.Api.Presentation.Entities","timestampUtc":"2023-01-08T04:11:34.0213021Z","exceptionType":"EntityNotFoundException","httpStatusCode":404,"httpStatus":"NotFound","relativeUri":"/Road/A2343434?app_key=26bc18e40878465a98cf11a36d765b68","message":"The following road id is not recognised: A2343434"}

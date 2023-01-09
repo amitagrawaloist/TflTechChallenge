@@ -1,0 +1,1071 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2846CD632967C09C00BA6903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD622967C09C00BA6903 /* AppDelegate.swift */; };
+		2846CD652967C09C00BA6903 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD642967C09C00BA6903 /* SceneDelegate.swift */; };
+		2846CD6A2967C09C00BA6903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD682967C09C00BA6903 /* Main.storyboard */; };
+		2846CD6C2967C09C00BA6903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD6B2967C09C00BA6903 /* Assets.xcassets */; };
+		2846CD6F2967C09C00BA6903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD6D2967C09C00BA6903 /* LaunchScreen.storyboard */; };
+		2846CD942967C46400BA6903 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD932967C46400BA6903 /* NetworkManager.swift */; };
+		2846CD952967C46400BA6903 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD932967C46400BA6903 /* NetworkManager.swift */; };
+		2846CD962967C46400BA6903 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD932967C46400BA6903 /* NetworkManager.swift */; };
+		2846CD982967C49500BA6903 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD972967C49500BA6903 /* APIError.swift */; };
+		2846CD992967C49500BA6903 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD972967C49500BA6903 /* APIError.swift */; };
+		2846CD9A2967C49500BA6903 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD972967C49500BA6903 /* APIError.swift */; };
+		2846CD9E2967C54F00BA6903 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */; };
+		2846CD9F2967C54F00BA6903 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */; };
+		2846CDA02967C54F00BA6903 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */; };
+		2846CDA32967C59500BA6903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA22967C59500BA6903 /* Constants.swift */; };
+		2846CDA42967C59500BA6903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA22967C59500BA6903 /* Constants.swift */; };
+		2846CDA52967C59500BA6903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA22967C59500BA6903 /* Constants.swift */; };
+		2846CDA82967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */; };
+		2846CDA92967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */; };
+		2846CDAA2967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */; };
+		2846CDAC2967C85300BA6903 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDAB2967C85300BA6903 /* Alert.swift */; };
+		2846CDAD2967C85300BA6903 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDAB2967C85300BA6903 /* Alert.swift */; };
+		2846CDAE2967C85300BA6903 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDAB2967C85300BA6903 /* Alert.swift */; };
+		2846CDB22967C95E00BA6903 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB12967C95E00BA6903 /* BaseViewController.swift */; };
+		2846CDB32967C95E00BA6903 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB12967C95E00BA6903 /* BaseViewController.swift */; };
+		2846CDB42967C95E00BA6903 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB12967C95E00BA6903 /* BaseViewController.swift */; };
+		2846CDBA2967CA6F00BA6903 /* RoadStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB92967CA6F00BA6903 /* RoadStatusViewController.swift */; };
+		2846CDBC2967CA6F00BA6903 /* RoadStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB92967CA6F00BA6903 /* RoadStatusViewController.swift */; };
+		2846CDBE2967D05900BA6903 /* RoadStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */; };
+		2846CDBF2967D05900BA6903 /* RoadStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */; };
+		2846CDC02967D05900BA6903 /* RoadStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */; };
+		2846CDC32967D34A00BA6903 /* RoadStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC22967D34A00BA6903 /* RoadStatusService.swift */; };
+		2846CDC42967D34A00BA6903 /* RoadStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC22967D34A00BA6903 /* RoadStatusService.swift */; };
+		2846CDC52967D34A00BA6903 /* RoadStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC22967D34A00BA6903 /* RoadStatusService.swift */; };
+		2846CDC72967D39700BA6903 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC62967D39700BA6903 /* ServerResponse.swift */; };
+		2846CDC82967D39700BA6903 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC62967D39700BA6903 /* ServerResponse.swift */; };
+		2846CDC92967D39700BA6903 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC62967D39700BA6903 /* ServerResponse.swift */; };
+		2846CDCC2967D7D800BA6903 /* RoadStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */; };
+		2846CDCE2967D7D800BA6903 /* RoadStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */; };
+		2846CDD02967D81100BA6903 /* RoadStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */; };
+		2846CDD42967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */; };
+		2846CDD52967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */; };
+		2846CDD62967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */; };
+		2846CDD82968982700BA6903 /* RoadStatusFailureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */; };
+		2846CDDA2968982700BA6903 /* RoadStatusFailureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */; };
+		2846CDDC2968983F00BA6903 /* RoadStatusFailureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */; };
+		2846CDE0296A70AE00BA6903 /* UIDeviceJailbrokenTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDDF296A70AE00BA6903 /* UIDeviceJailbrokenTest.swift */; };
+		2846CDE2296A719300BA6903 /* RoadStatusCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDE1296A719300BA6903 /* RoadStatusCellTest.swift */; };
+		2846CDE4296A75DE00BA6903 /* RoadStatusServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDE3296A75DE00BA6903 /* RoadStatusServiceTest.swift */; };
+		2846CDEC296A783400BA6903 /* StubGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDEB296A783400BA6903 /* StubGenerator.swift */; };
+		2846CDF3296A793500BA6903 /* RoadStatusSuccessData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDF2296A793500BA6903 /* RoadStatusSuccessData.json */; };
+		2846CDF5296A79C600BA6903 /* RoadStatusFailureData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDF4296A79C600BA6903 /* RoadStatusFailureData.json */; };
+		2846CDF7296A7F6100BA6903 /* RoadStatusMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDF6296A7F6100BA6903 /* RoadStatusMockDataService.swift */; };
+		2846CDFA296A868800BA6903 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDE9296A77AA00BA6903 /* MockNetworkManager.swift */; };
+		2846CDFB296A86F800BA6903 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDE9296A77AA00BA6903 /* MockNetworkManager.swift */; };
+		2846CDFC296A870000BA6903 /* StubGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDEB296A783400BA6903 /* StubGenerator.swift */; };
+		2846CE03296A8B1A00BA6903 /* RoadStatusViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CE02296A8B1A00BA6903 /* RoadStatusViewControllerTest.swift */; };
+		2846CE04296A8F4700BA6903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD682967C09C00BA6903 /* Main.storyboard */; };
+		2846CE05296B763200BA6903 /* RoadStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */; };
+		2846CE06296B763600BA6903 /* RoadStatusFailureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */; };
+		2846CE07296B770F00BA6903 /* RoadStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */; };
+		2846CE0D296B814300BA6903 /* RoadStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */; };
+		2846CE0F296B818900BA6903 /* RoadStatusFailureCellTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDFD296A87C800BA6903 /* RoadStatusFailureCellTest.swift */; };
+		2846CE10296B81A700BA6903 /* RoadStatusFailureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */; };
+		2846CE11296B81AC00BA6903 /* RoadStatusFailureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */; };
+		2846CE38296B889200BA6903 /* TfLTechTestApplicationPROD.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2846CE36296B889200BA6903 /* TfLTechTestApplicationPROD.plist */; };
+		2846CE3B296B890100BA6903 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDAB2967C85300BA6903 /* Alert.swift */; };
+		2846CE3C296B890100BA6903 /* RoadStatusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */; };
+		2846CE3D296B890100BA6903 /* RoadStatusService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC22967D34A00BA6903 /* RoadStatusService.swift */; };
+		2846CE3E296B890100BA6903 /* RoadStatusFailureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */; };
+		2846CE3F296B890100BA6903 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD932967C46400BA6903 /* NetworkManager.swift */; };
+		2846CE40296B890100BA6903 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */; };
+		2846CE41296B890100BA6903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD622967C09C00BA6903 /* AppDelegate.swift */; };
+		2846CE42296B890100BA6903 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB12967C95E00BA6903 /* BaseViewController.swift */; };
+		2846CE43296B890100BA6903 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDE9296A77AA00BA6903 /* MockNetworkManager.swift */; };
+		2846CE44296B890100BA6903 /* RoadStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */; };
+		2846CE45296B890100BA6903 /* RoadStatusMockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDF6296A7F6100BA6903 /* RoadStatusMockDataService.swift */; };
+		2846CE46296B890100BA6903 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA22967C59500BA6903 /* Constants.swift */; };
+		2846CE47296B890100BA6903 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD972967C49500BA6903 /* APIError.swift */; };
+		2846CE48296B890100BA6903 /* RoadStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDB92967CA6F00BA6903 /* RoadStatusViewController.swift */; };
+		2846CE49296B890100BA6903 /* StubGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDEB296A783400BA6903 /* StubGenerator.swift */; };
+		2846CE4A296B890100BA6903 /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDC62967D39700BA6903 /* ServerResponse.swift */; };
+		2846CE4B296B890100BA6903 /* UIDevice+Jailbroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */; };
+		2846CE4C296B890100BA6903 /* RoadStatusCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */; };
+		2846CE4D296B890100BA6903 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2846CD642967C09C00BA6903 /* SceneDelegate.swift */; };
+		2846CE50296B890100BA6903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD6D2967C09C00BA6903 /* LaunchScreen.storyboard */; };
+		2846CE51296B890100BA6903 /* RoadStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */; };
+		2846CE53296B890100BA6903 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD6B2967C09C00BA6903 /* Assets.xcassets */; };
+		2846CE54296B890100BA6903 /* RoadStatusFailureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */; };
+		2846CE55296B890100BA6903 /* RoadStatusFailureData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDF4296A79C600BA6903 /* RoadStatusFailureData.json */; };
+		2846CE56296B890100BA6903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2846CD682967C09C00BA6903 /* Main.storyboard */; };
+		2846CE57296B890100BA6903 /* RoadStatusSuccessData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2846CDF2296A793500BA6903 /* RoadStatusSuccessData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2846CD762967C09C00BA6903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2846CD572967C09C00BA6903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2846CD5E2967C09C00BA6903;
+			remoteInfo = TfLTechTestApplication;
+		};
+		2846CD802967C09D00BA6903 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2846CD572967C09C00BA6903 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2846CD5E2967C09C00BA6903;
+			remoteInfo = TfLTechTestApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2846CD5F2967C09C00BA6903 /* TfLTechTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfLTechTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2846CD622967C09C00BA6903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2846CD642967C09C00BA6903 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2846CD692967C09C00BA6903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2846CD6B2967C09C00BA6903 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2846CD6E2967C09C00BA6903 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2846CD702967C09C00BA6903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2846CD752967C09C00BA6903 /* TfLTechTestApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLTechTestApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2846CD7F2967C09D00BA6903 /* TfLTechTestApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfLTechTestApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2846CD932967C46400BA6903 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2846CD972967C49500BA6903 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		2846CDA22967C59500BA6903 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Jailbroken.swift"; sourceTree = "<group>"; };
+		2846CDAB2967C85300BA6903 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		2846CDB12967C95E00BA6903 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2846CDB92967CA6F00BA6903 /* RoadStatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusViewController.swift; sourceTree = "<group>"; };
+		2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusViewModel.swift; sourceTree = "<group>"; };
+		2846CDC22967D34A00BA6903 /* RoadStatusService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusService.swift; sourceTree = "<group>"; };
+		2846CDC62967D39700BA6903 /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusCell.swift; sourceTree = "<group>"; };
+		2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoadStatusCell.xib; sourceTree = "<group>"; };
+		2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusCellViewModel.swift; sourceTree = "<group>"; };
+		2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusFailureCell.swift; sourceTree = "<group>"; };
+		2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoadStatusFailureCell.xib; sourceTree = "<group>"; };
+		2846CDDF296A70AE00BA6903 /* UIDeviceJailbrokenTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceJailbrokenTest.swift; sourceTree = "<group>"; };
+		2846CDE1296A719300BA6903 /* RoadStatusCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusCellTest.swift; sourceTree = "<group>"; };
+		2846CDE3296A75DE00BA6903 /* RoadStatusServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusServiceTest.swift; sourceTree = "<group>"; };
+		2846CDE9296A77AA00BA6903 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		2846CDEB296A783400BA6903 /* StubGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubGenerator.swift; sourceTree = "<group>"; };
+		2846CDF2296A793500BA6903 /* RoadStatusSuccessData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RoadStatusSuccessData.json; sourceTree = "<group>"; };
+		2846CDF4296A79C600BA6903 /* RoadStatusFailureData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RoadStatusFailureData.json; sourceTree = "<group>"; };
+		2846CDF6296A7F6100BA6903 /* RoadStatusMockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusMockDataService.swift; sourceTree = "<group>"; };
+		2846CDFD296A87C800BA6903 /* RoadStatusFailureCellTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusFailureCellTest.swift; sourceTree = "<group>"; };
+		2846CE02296A8B1A00BA6903 /* RoadStatusViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadStatusViewControllerTest.swift; sourceTree = "<group>"; };
+		2846CE36296B889200BA6903 /* TfLTechTestApplicationPROD.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TfLTechTestApplicationPROD.plist; sourceTree = "<group>"; };
+		2846CE5B296B890100BA6903 /* TfLTechTestApplicationPROD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TfLTechTestApplicationPROD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28BB4462296B9DEA0019E10B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2846CD5C2967C09C00BA6903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD722967C09C00BA6903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD7C2967C09D00BA6903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CE4E296B890100BA6903 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2846CD562967C09C00BA6903 = {
+			isa = PBXGroup;
+			children = (
+				28BB4462296B9DEA0019E10B /* README.md */,
+				2846CD612967C09C00BA6903 /* TfLTechTestApplication */,
+				2846CD782967C09C00BA6903 /* TfLTechTestApplicationTests */,
+				2846CD602967C09C00BA6903 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2846CD602967C09C00BA6903 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD5F2967C09C00BA6903 /* TfLTechTestApplication.app */,
+				2846CD752967C09C00BA6903 /* TfLTechTestApplicationTests.xctest */,
+				2846CD7F2967C09D00BA6903 /* TfLTechTestApplicationUITests.xctest */,
+				2846CE5B296B890100BA6903 /* TfLTechTestApplicationPROD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2846CD612967C09C00BA6903 /* TfLTechTestApplication */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDAF2967C88000BA6903 /* AppDelegates */,
+				2846CDB52967C9F100BA6903 /* RoadStatus */,
+				2846CE12296B84B500BA6903 /* StoryboardXib */,
+				2846CD922967C43200BA6903 /* NetworkLayer */,
+				2846CD9B2967C52100BA6903 /* Utilities */,
+				2846CDED296A788600BA6903 /* Resources */,
+				2846CDE5296A773700BA6903 /* Mocks */,
+				2846CD702967C09C00BA6903 /* Info.plist */,
+				2846CE36296B889200BA6903 /* TfLTechTestApplicationPROD.plist */,
+			);
+			path = TfLTechTestApplication;
+			sourceTree = "<group>";
+		};
+		2846CD782967C09C00BA6903 /* TfLTechTestApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDDF296A70AE00BA6903 /* UIDeviceJailbrokenTest.swift */,
+				2846CDE1296A719300BA6903 /* RoadStatusCellTest.swift */,
+				2846CDE3296A75DE00BA6903 /* RoadStatusServiceTest.swift */,
+				2846CDFD296A87C800BA6903 /* RoadStatusFailureCellTest.swift */,
+				2846CE02296A8B1A00BA6903 /* RoadStatusViewControllerTest.swift */,
+			);
+			path = TfLTechTestApplicationTests;
+			sourceTree = "<group>";
+		};
+		2846CD922967C43200BA6903 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD932967C46400BA6903 /* NetworkManager.swift */,
+				2846CD972967C49500BA6903 /* APIError.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		2846CD9B2967C52100BA6903 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDB02967C94600BA6903 /* BaseViewController */,
+				2846CDA62967C78400BA6903 /* Extensions */,
+				2846CDA12967C58200BA6903 /* AppConstants */,
+				2846CD9C2967C53400BA6903 /* NetworkMonitor */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2846CD9C2967C53400BA6903 /* NetworkMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD9D2967C54F00BA6903 /* NetworkMonitor.swift */,
+			);
+			path = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		2846CDA12967C58200BA6903 /* AppConstants */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDA22967C59500BA6903 /* Constants.swift */,
+			);
+			path = AppConstants;
+			sourceTree = "<group>";
+		};
+		2846CDA62967C78400BA6903 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDA72967C7A100BA6903 /* UIDevice+Jailbroken.swift */,
+				2846CDAB2967C85300BA6903 /* Alert.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2846CDAF2967C88000BA6903 /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD642967C09C00BA6903 /* SceneDelegate.swift */,
+				2846CD622967C09C00BA6903 /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		2846CDB02967C94600BA6903 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDB12967C95E00BA6903 /* BaseViewController.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		2846CDB52967C9F100BA6903 /* RoadStatus */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDB82967CA4B00BA6903 /* ViewModel */,
+				2846CDB72967CA4400BA6903 /* View */,
+				2846CDB62967CA3D00BA6903 /* Model */,
+			);
+			path = RoadStatus;
+			sourceTree = "<group>";
+		};
+		2846CDB62967CA3D00BA6903 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDC12967D33600BA6903 /* WebService */,
+				2846CDC62967D39700BA6903 /* ServerResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2846CDB72967CA4400BA6903 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDCA2967D7A500BA6903 /* RoadStatusTableViewCell */,
+				2846CDB92967CA6F00BA6903 /* RoadStatusViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2846CDB82967CA4B00BA6903 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDBD2967D05900BA6903 /* RoadStatusViewModel.swift */,
+				2846CDD32967E2B600BA6903 /* RoadStatusCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2846CDC12967D33600BA6903 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDC22967D34A00BA6903 /* RoadStatusService.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		2846CDCA2967D7A500BA6903 /* RoadStatusTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDCB2967D7D800BA6903 /* RoadStatusCell.swift */,
+				2846CDCF2967D81100BA6903 /* RoadStatusCell.xib */,
+				2846CDD72968982700BA6903 /* RoadStatusFailureCell.swift */,
+				2846CDDB2968983F00BA6903 /* RoadStatusFailureCell.xib */,
+			);
+			path = RoadStatusTableViewCell;
+			sourceTree = "<group>";
+		};
+		2846CDE5296A773700BA6903 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDE8296A776B00BA6903 /* RoadStatusMockDataService */,
+				2846CDE7296A775600BA6903 /* MockNetworkManager */,
+				2846CDE6296A774900BA6903 /* Stubs */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		2846CDE6296A774900BA6903 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDEB296A783400BA6903 /* StubGenerator.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		2846CDE7296A775600BA6903 /* MockNetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDE9296A77AA00BA6903 /* MockNetworkManager.swift */,
+			);
+			path = MockNetworkManager;
+			sourceTree = "<group>";
+		};
+		2846CDE8296A776B00BA6903 /* RoadStatusMockDataService */ = {
+			isa = PBXGroup;
+			children = (
+				2846CDF6296A7F6100BA6903 /* RoadStatusMockDataService.swift */,
+			);
+			path = RoadStatusMockDataService;
+			sourceTree = "<group>";
+		};
+		2846CDED296A788600BA6903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD6B2967C09C00BA6903 /* Assets.xcassets */,
+				2846CDF4296A79C600BA6903 /* RoadStatusFailureData.json */,
+				2846CDF2296A793500BA6903 /* RoadStatusSuccessData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2846CE12296B84B500BA6903 /* StoryboardXib */ = {
+			isa = PBXGroup;
+			children = (
+				2846CD6D2967C09C00BA6903 /* LaunchScreen.storyboard */,
+				2846CD682967C09C00BA6903 /* Main.storyboard */,
+			);
+			path = StoryboardXib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2846CD5E2967C09C00BA6903 /* TfLTechTestApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2846CD892967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplication" */;
+			buildPhases = (
+				2846CD5B2967C09C00BA6903 /* Sources */,
+				2846CD5C2967C09C00BA6903 /* Frameworks */,
+				2846CD5D2967C09C00BA6903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TfLTechTestApplication;
+			productName = TfLTechTestApplication;
+			productReference = 2846CD5F2967C09C00BA6903 /* TfLTechTestApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2846CD742967C09C00BA6903 /* TfLTechTestApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2846CD8C2967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationTests" */;
+			buildPhases = (
+				2846CD712967C09C00BA6903 /* Sources */,
+				2846CD722967C09C00BA6903 /* Frameworks */,
+				2846CD732967C09C00BA6903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2846CD772967C09C00BA6903 /* PBXTargetDependency */,
+			);
+			name = TfLTechTestApplicationTests;
+			productName = TfLTechTestApplicationTests;
+			productReference = 2846CD752967C09C00BA6903 /* TfLTechTestApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2846CD7E2967C09D00BA6903 /* TfLTechTestApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2846CD8F2967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationUITests" */;
+			buildPhases = (
+				2846CD7B2967C09D00BA6903 /* Sources */,
+				2846CD7C2967C09D00BA6903 /* Frameworks */,
+				2846CD7D2967C09D00BA6903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2846CD812967C09D00BA6903 /* PBXTargetDependency */,
+			);
+			name = TfLTechTestApplicationUITests;
+			productName = TfLTechTestApplicationUITests;
+			productReference = 2846CD7F2967C09D00BA6903 /* TfLTechTestApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2846CE39296B890100BA6903 /* TfLTechTestApplicationPROD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2846CE58296B890100BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationPROD" */;
+			buildPhases = (
+				2846CE3A296B890100BA6903 /* Sources */,
+				2846CE4E296B890100BA6903 /* Frameworks */,
+				2846CE4F296B890100BA6903 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TfLTechTestApplicationPROD;
+			productName = TfLTechTestApplication;
+			productReference = 2846CE5B296B890100BA6903 /* TfLTechTestApplicationPROD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2846CD572967C09C00BA6903 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2846CD5E2967C09C00BA6903 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2846CD742967C09C00BA6903 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2846CD5E2967C09C00BA6903;
+					};
+					2846CD7E2967C09D00BA6903 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2846CD5E2967C09C00BA6903;
+					};
+				};
+			};
+			buildConfigurationList = 2846CD5A2967C09C00BA6903 /* Build configuration list for PBXProject "TfLTechTestApplication" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2846CD562967C09C00BA6903;
+			productRefGroup = 2846CD602967C09C00BA6903 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2846CD5E2967C09C00BA6903 /* TfLTechTestApplication */,
+				2846CD742967C09C00BA6903 /* TfLTechTestApplicationTests */,
+				2846CD7E2967C09D00BA6903 /* TfLTechTestApplicationUITests */,
+				2846CE39296B890100BA6903 /* TfLTechTestApplicationPROD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2846CD5D2967C09C00BA6903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CD6F2967C09C00BA6903 /* LaunchScreen.storyboard in Resources */,
+				2846CDD02967D81100BA6903 /* RoadStatusCell.xib in Resources */,
+				2846CD6C2967C09C00BA6903 /* Assets.xcassets in Resources */,
+				2846CDDC2968983F00BA6903 /* RoadStatusFailureCell.xib in Resources */,
+				2846CDF5296A79C600BA6903 /* RoadStatusFailureData.json in Resources */,
+				2846CD6A2967C09C00BA6903 /* Main.storyboard in Resources */,
+				2846CDF3296A793500BA6903 /* RoadStatusSuccessData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD732967C09C00BA6903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CE0D296B814300BA6903 /* RoadStatusCell.xib in Resources */,
+				2846CE11296B81AC00BA6903 /* RoadStatusFailureCell.xib in Resources */,
+				2846CE38296B889200BA6903 /* TfLTechTestApplicationPROD.plist in Resources */,
+				2846CE04296A8F4700BA6903 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD7D2967C09D00BA6903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CE06296B763600BA6903 /* RoadStatusFailureCell.xib in Resources */,
+				2846CE05296B763200BA6903 /* RoadStatusCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CE4F296B890100BA6903 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CE50296B890100BA6903 /* LaunchScreen.storyboard in Resources */,
+				2846CE51296B890100BA6903 /* RoadStatusCell.xib in Resources */,
+				2846CE53296B890100BA6903 /* Assets.xcassets in Resources */,
+				2846CE54296B890100BA6903 /* RoadStatusFailureCell.xib in Resources */,
+				2846CE55296B890100BA6903 /* RoadStatusFailureData.json in Resources */,
+				2846CE56296B890100BA6903 /* Main.storyboard in Resources */,
+				2846CE57296B890100BA6903 /* RoadStatusSuccessData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2846CD5B2967C09C00BA6903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CDAC2967C85300BA6903 /* Alert.swift in Sources */,
+				2846CDCC2967D7D800BA6903 /* RoadStatusCell.swift in Sources */,
+				2846CDC32967D34A00BA6903 /* RoadStatusService.swift in Sources */,
+				2846CDD82968982700BA6903 /* RoadStatusFailureCell.swift in Sources */,
+				2846CD942967C46400BA6903 /* NetworkManager.swift in Sources */,
+				2846CD9E2967C54F00BA6903 /* NetworkMonitor.swift in Sources */,
+				2846CD632967C09C00BA6903 /* AppDelegate.swift in Sources */,
+				2846CDB22967C95E00BA6903 /* BaseViewController.swift in Sources */,
+				2846CDFB296A86F800BA6903 /* MockNetworkManager.swift in Sources */,
+				2846CDBE2967D05900BA6903 /* RoadStatusViewModel.swift in Sources */,
+				2846CDF7296A7F6100BA6903 /* RoadStatusMockDataService.swift in Sources */,
+				2846CDA32967C59500BA6903 /* Constants.swift in Sources */,
+				2846CD982967C49500BA6903 /* APIError.swift in Sources */,
+				2846CDBA2967CA6F00BA6903 /* RoadStatusViewController.swift in Sources */,
+				2846CDEC296A783400BA6903 /* StubGenerator.swift in Sources */,
+				2846CDC72967D39700BA6903 /* ServerResponse.swift in Sources */,
+				2846CDA82967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */,
+				2846CDD42967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */,
+				2846CD652967C09C00BA6903 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD712967C09C00BA6903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CDD52967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */,
+				2846CDC42967D34A00BA6903 /* RoadStatusService.swift in Sources */,
+				2846CE03296A8B1A00BA6903 /* RoadStatusViewControllerTest.swift in Sources */,
+				2846CDC82967D39700BA6903 /* ServerResponse.swift in Sources */,
+				2846CDA42967C59500BA6903 /* Constants.swift in Sources */,
+				2846CD952967C46400BA6903 /* NetworkManager.swift in Sources */,
+				2846CE0F296B818900BA6903 /* RoadStatusFailureCellTest.swift in Sources */,
+				2846CE07296B770F00BA6903 /* RoadStatusCell.swift in Sources */,
+				2846CDE0296A70AE00BA6903 /* UIDeviceJailbrokenTest.swift in Sources */,
+				2846CDFC296A870000BA6903 /* StubGenerator.swift in Sources */,
+				2846CDE2296A719300BA6903 /* RoadStatusCellTest.swift in Sources */,
+				2846CDFA296A868800BA6903 /* MockNetworkManager.swift in Sources */,
+				2846CD9F2967C54F00BA6903 /* NetworkMonitor.swift in Sources */,
+				2846CDE4296A75DE00BA6903 /* RoadStatusServiceTest.swift in Sources */,
+				2846CDBF2967D05900BA6903 /* RoadStatusViewModel.swift in Sources */,
+				2846CDA92967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */,
+				2846CE10296B81A700BA6903 /* RoadStatusFailureCell.swift in Sources */,
+				2846CDB32967C95E00BA6903 /* BaseViewController.swift in Sources */,
+				2846CD992967C49500BA6903 /* APIError.swift in Sources */,
+				2846CDAD2967C85300BA6903 /* Alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CD7B2967C09D00BA6903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CD962967C46400BA6903 /* NetworkManager.swift in Sources */,
+				2846CD9A2967C49500BA6903 /* APIError.swift in Sources */,
+				2846CDA02967C54F00BA6903 /* NetworkMonitor.swift in Sources */,
+				2846CDC92967D39700BA6903 /* ServerResponse.swift in Sources */,
+				2846CDAA2967C7A100BA6903 /* UIDevice+Jailbroken.swift in Sources */,
+				2846CDD62967E2B600BA6903 /* RoadStatusCellViewModel.swift in Sources */,
+				2846CDB42967C95E00BA6903 /* BaseViewController.swift in Sources */,
+				2846CDDA2968982700BA6903 /* RoadStatusFailureCell.swift in Sources */,
+				2846CDBC2967CA6F00BA6903 /* RoadStatusViewController.swift in Sources */,
+				2846CDAE2967C85300BA6903 /* Alert.swift in Sources */,
+				2846CDC52967D34A00BA6903 /* RoadStatusService.swift in Sources */,
+				2846CDCE2967D7D800BA6903 /* RoadStatusCell.swift in Sources */,
+				2846CDC02967D05900BA6903 /* RoadStatusViewModel.swift in Sources */,
+				2846CDA52967C59500BA6903 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2846CE3A296B890100BA6903 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2846CE3B296B890100BA6903 /* Alert.swift in Sources */,
+				2846CE3C296B890100BA6903 /* RoadStatusCell.swift in Sources */,
+				2846CE3D296B890100BA6903 /* RoadStatusService.swift in Sources */,
+				2846CE3E296B890100BA6903 /* RoadStatusFailureCell.swift in Sources */,
+				2846CE3F296B890100BA6903 /* NetworkManager.swift in Sources */,
+				2846CE40296B890100BA6903 /* NetworkMonitor.swift in Sources */,
+				2846CE41296B890100BA6903 /* AppDelegate.swift in Sources */,
+				2846CE42296B890100BA6903 /* BaseViewController.swift in Sources */,
+				2846CE43296B890100BA6903 /* MockNetworkManager.swift in Sources */,
+				2846CE44296B890100BA6903 /* RoadStatusViewModel.swift in Sources */,
+				2846CE45296B890100BA6903 /* RoadStatusMockDataService.swift in Sources */,
+				2846CE46296B890100BA6903 /* Constants.swift in Sources */,
+				2846CE47296B890100BA6903 /* APIError.swift in Sources */,
+				2846CE48296B890100BA6903 /* RoadStatusViewController.swift in Sources */,
+				2846CE49296B890100BA6903 /* StubGenerator.swift in Sources */,
+				2846CE4A296B890100BA6903 /* ServerResponse.swift in Sources */,
+				2846CE4B296B890100BA6903 /* UIDevice+Jailbroken.swift in Sources */,
+				2846CE4C296B890100BA6903 /* RoadStatusCellViewModel.swift in Sources */,
+				2846CE4D296B890100BA6903 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2846CD772967C09C00BA6903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2846CD5E2967C09C00BA6903 /* TfLTechTestApplication */;
+			targetProxy = 2846CD762967C09C00BA6903 /* PBXContainerItemProxy */;
+		};
+		2846CD812967C09D00BA6903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2846CD5E2967C09C00BA6903 /* TfLTechTestApplication */;
+			targetProxy = 2846CD802967C09D00BA6903 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2846CD682967C09C00BA6903 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2846CD692967C09C00BA6903 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2846CD6D2967C09C00BA6903 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2846CD6E2967C09C00BA6903 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2846CD872967C09D00BA6903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2846CD882967C09D00BA6903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2846CD8A2967C09D00BA6903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV7SXGZSP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TfLTechTestApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road Status DEV";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2846CD8B2967C09D00BA6903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV7SXGZSP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TfLTechTestApplication/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road Status DEV";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationDev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2846CD8D2967C09D00BA6903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLTechTestApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLTechTestApplication";
+			};
+			name = Debug;
+		};
+		2846CD8E2967C09D00BA6903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TfLTechTestApplication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TfLTechTestApplication";
+			};
+			name = Release;
+		};
+		2846CD902967C09D00BA6903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TfLTechTestApplication;
+			};
+			name = Debug;
+		};
+		2846CD912967C09D00BA6903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TfLTechTestApplication;
+			};
+			name = Release;
+		};
+		2846CE59296B890100BA6903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV7SXGZSP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TfLTechTestApplication/TfLTechTestApplicationPROD.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TfL Road Status";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationProd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2846CE5A296B890100BA6903 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YV7SXGZSP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TfLTechTestApplication/TfLTechTestApplicationPROD.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "TfL Road Status";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.tfl.TfLTechTestApplicationProd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2846CD5A2967C09C00BA6903 /* Build configuration list for PBXProject "TfLTechTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2846CD872967C09D00BA6903 /* Debug */,
+				2846CD882967C09D00BA6903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2846CD892967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2846CD8A2967C09D00BA6903 /* Debug */,
+				2846CD8B2967C09D00BA6903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2846CD8C2967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2846CD8D2967C09D00BA6903 /* Debug */,
+				2846CD8E2967C09D00BA6903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2846CD8F2967C09D00BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2846CD902967C09D00BA6903 /* Debug */,
+				2846CD912967C09D00BA6903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2846CE58296B890100BA6903 /* Build configuration list for PBXNativeTarget "TfLTechTestApplicationPROD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2846CE59296B890100BA6903 /* Debug */,
+				2846CE5A296B890100BA6903 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2846CD572967C09C00BA6903 /* Project object */;
+}
